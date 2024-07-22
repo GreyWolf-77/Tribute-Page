@@ -1,0 +1,47 @@
+.bold{
+  font-weight:800;
+}
+img{
+  
+  max-width:100%;
+  height:auto;
+  margin:auto;
+  display:block;
+  width:600px;
+  justify-content:center;
+}
+
+footer{
+  background-color:#2a2a40;
+  display:flex;
+  justify-content:center;
+  width:100%;
+  margin:0;
+  padding:0
+
+}
+footer,footer a{
+  color:#dfdfe2;
+}
+section{
+  width: 80%;
+  margin: 0 auto 10px auto;
+  max-width: 700px;
+}
+main{
+  background: #dfdfe2;
+  color: #1b1b32;
+  font-family: Helvetica;
+  margin: 0;
+}
+#img-div{
+  background:white;
+  margin:0;
+  padding:20px;
+}
+figcaption{
+  text-align:center
+}
+header{
+  text-align:center;
+}
