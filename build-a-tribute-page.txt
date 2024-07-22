@@ -1,0 +1,128 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <main id="main">
+    <header>
+    <h1 id="title">Nikola Tesla</h1>
+    <p>The man ahead of his time</p>
+    </header>
+    <figure  id="img-div">
+      <img id="image" src="https://i.pinimg.com/originals/0d/cd/7f/0dcd7fd484411e7f66bf8a7d4fde5a71.jpg">
+      <figcaption id="img-caption">
+      Nikola Tesla and the famous Wardenclyffe Tower
+      </figcaption>
+    </figure>
+    <section id="tribute-info">
+      <h2>A Visionary Inventor's Legacy</h2>
+      <p>Nikola Tesla, born on July 10, 1856, in Smiljan, Croatia, was a visionary inventor and electrical engineer whose groundbreaking work continues to shape modern technology. Known as "The Man Ahead of His Time," Tesla's contributions laid the foundation for many of the conveniences we enjoy today. Here are some key highlights of his remarkable achievements:</p>
+      <h3>Early Life and Education</h3>
+      <ul>
+        <li><span class="bold">1856:</span> Born in Smiljan, Croatia.</li>
+        <li><span class="bold">1875:</span> Enrolled at the Austrian Polytechnic in Graz to study electrical engineering.</li>
+      </ul>
+      <h3>Key Achievements</h3>
+      <ol>
+        <li><h4>Alternating Current (AC) System</h4></li>
+          <ul>
+            <li><span class="bold">1887-1888:</span> Tesla developed the AC induction motor and transformer, revolutionising the transmission of electrical power. His work led to the widespread adoption of AC for power distribution, thanks to its efficiency over long distances.
+              </li>
+          </ul>
+        <li><h4>Tesla Coil</h4></li>
+          <ul>
+            <li><span class="bold">1891: </span> Invented the Tesla Coil, a high-frequency transformer capable of producing high-voltage electricity. This invention remains a vital component in radio technology and is used in various applications to this day.</li>
+          </ul>
+        <li><h4>Wardenclyffe Tower</h4></li>
+          <ul>
+            <li><span class="bold">1901-1902:</span> Tesla began construction of the Wardenclyffe Tower on Long Island, New York. This ambitious project aimed to provide wireless transmission of electricity and communication across the globe. Although never completed, it demonstrated Tesla's forward-thinking vision of a connected world.</li>
+          </ul>
+        <li><h4>Radio Waves and Remote Control</h4></li>
+          <ul>
+            <li><span class="bold">1898:</span> Demonstrated the first remote-controlled vessel, showcasing the potential of radio waves for wireless communication and control, predating modern drones and remote-operated devices.</li>
+          </ul>
+        <li><h4>X-ray Imaging</h4></li>
+          <ul>
+            <li><span class="bold">1894:</span> Experimented with X-rays, contributing to early developments in medical imaging, which later became crucial for diagnostic medicine.</li>
+          </ul>
+      </ol>
+
+    
+    <div>
+      <h3>Later Years and Legacy</h3>
+      <ul>
+        <li><span class="bold">1930s:</span> Despite his numerous patents and inventions, Tesla struggled financially in his later years.
+</li>
+        <li><span class="bold">1943:</span> Died on January 7 in New York City, largely unrecognised for many of his contributions at the time.</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Why Tesla Was Truly Ahead of His Time</h2>
+      <p>
+        Nikola Tesla's visionary ideas and inventions often surpassed the technological capabilities and understanding of his era. His work on wireless energy transmission, renewable energy, and advanced electrical systems prefigured many modern advancements. Tesla's innovative spirit and unyielding pursuit of his ideas continue to inspire scientists and engineers today.
+      </p>
+    </div>
+    <h3>For more detailed information about Nikola Tesla's life and contributions, you can visit his <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Nikola_Tesla"> Wikipedia page.</a>   
+    </h3>
+    </section>
+    <footer><address>Created by Chris Ferguson<br>Hertford, UK</footer>
+  </main>
+
+** end of undefined **
+
+** start of undefined **
+
+.bold{
+  font-weight:800;
+}
+img{
+  
+  max-width:100%;
+  height:auto;
+  margin:auto;
+  display:block;
+  width:600px;
+  justify-content:center;
+}
+
+footer{
+  background-color:#2a2a40;
+  display:flex;
+  justify-content:center;
+  width:100%;
+  margin:0;
+  padding:0
+
+}
+footer,footer a{
+  color:#dfdfe2;
+}
+section{
+  width: 80%;
+  margin: 0 auto 10px auto;
+  max-width: 700px;
+}
+main{
+  background: #dfdfe2;
+  color: #1b1b32;
+  font-family: Helvetica;
+  margin: 0;
+}
+#img-div{
+  background:white;
+  margin:0;
+  padding:20px;
+}
+figcaption{
+  text-align:center
+}
+header{
+  text-align:center;
+}
+
+** end of undefined **
+
